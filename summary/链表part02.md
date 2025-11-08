@@ -5,7 +5,7 @@
 | 24.两两交换链表中的节点| [力扣题目链接](https://leetcode.cn/problems/swap-nodes-in-pairs/)      |
 |19.删除链表的倒数第N个节点| [力扣题目链接](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)        |
 |160.相交链表|[力扣题目链接](https://leetcode.cn/problems/intersection-of-two-linked-lists-lcci/)   |
-|142.环形链表|||[力扣题目链接](https://leetcode.cn/problems/linked-list-cycle-ii/)   |
+|142.环形链表ii|[力扣题目链接](https://leetcode.cn/problems/linked-list-cycle-ii/)   
 
 
 19. 删除链表的倒数第 N 个结点：删除链表的倒数第 N 个结点。这道题需要注意的是，删除节点需要找到待删除节点的前一个节点，所以需要一个虚拟头节点。这里如果要一遍遍历删除，就需要用到双指针的思想。让快指针先走n步，然后慢指针开始走，这样快慢指针间隔N个节点，当快指针到达链表尾部时，慢指针指向的就是待删除节点。具体的边界感需要自己想一下。
