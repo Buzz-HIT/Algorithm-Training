@@ -25,3 +25,5 @@
 | 383.赎金信| [力扣题目链接](https://leetcode.cn/problems/ransom-note/)      |
 | 49.字母异位词分组| [力扣题目链接](https://leetcode.cn/problems/find-all-anagrams-in-a-string/description/)      |
 | 438.找到字符串中所有字母的异位词| [力扣题目链接](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)      |
+| 349.两个数组的交集| [力扣题目链接](https://leetcode.cn/problems/intersection-of-two-arrays/description/)      |
+| 350.两个数组的交集II| [力扣题目链接](https://leetcode.cn/problems/intersection-of-two-arrays-ii/)      |
