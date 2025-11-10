@@ -12,8 +12,16 @@
 ![alt text](image.png)
 拉链法的关键在于选择适当的哈希表的大小，从而保证既不会因为数组空值浪费大量内存，也不会因为链表太长是时间复杂度退化到O(n)
 2.线性探测法
-一定要保证tablesize>datasize, 即利用空位去放置哈希碰撞的元素
-### 对应哈希表的三种结构
+一定要保证tablesize>datasize, 即利用空位去放置哈希碰撞的元素对应哈希表的三种结构
 一般会选择数组，集合，字典（map，映射）来使用哈希法，这三种实现的底层逻辑不同：
 ### 总结
 当遇到在集合中快速判断或者选择一个元素时，就要考虑哈希表（空间换时间）
+
+## 哈希表题目
+
+| 题目     | Leetcode地址 |
+| ----------- | ----------- |
+| 242.有效字母的异位词| [力扣题目链接](https://leetcode.cn/problems/valid-anagram/)      |
+| 383.赎金信| [力扣题目链接](https://leetcode.cn/problems/ransom-note/)      |
+| 49.字母异位词分组| [力扣题目链接](https://leetcode.cn/problems/find-all-anagrams-in-a-string/description/)      |
+| 438.找到字符串中所有字母的异位词| [力扣题目链接](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)      |
