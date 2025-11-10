@@ -27,3 +27,71 @@
 | 438.找到字符串中所有字母的异位词| [力扣题目链接](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)      |
 | 349.两个数组的交集| [力扣题目链接](https://leetcode.cn/problems/intersection-of-two-arrays/description/)      |
 | 350.两个数组的交集II| [力扣题目链接](https://leetcode.cn/problems/intersection-of-two-arrays-ii/)      |
+| 202.快乐数| [力扣题目链接](https://leetcode.cn/problems/happy-number/)      |
+| 1.两数之和| [力扣题目链接](https://leetcode.cn/problems/two-sum/)      |
+
+### 题目总结
+
+除了第438题外基本上没有什么题目思路上的问题，438题一开始的思路是滑动窗口，快指针先动，满足条件后，慢指针再动，找到最小的窗口，后来发现题目要求是**求异位词子串，而不是包含所有字符的子串，也就是说异位词子串长度应该是相等的**，所以窗口长度固定即可，就更为简单
+
+### python数据结构使用指南
+
+今天更多地学到了python数据结构的一些用法，正好最近也在选python，正好做一下总结：
+python的基本数据结构为list，set，dict，tuple,
+其中，list和dict可做映射，set可做不重复元素的统计。
+dict初始化可以使用get函数，即
+```python
+dict[index] = dict.get(index, 0) + 1
+```
+除了上述的四种基本数据结构，在collection类中还定义了其他数据结构：
+namedtuple()：创建具有命名字段的元组子类的工厂函数。
+```python
+from collections import namedtuple
+Point = namedtuple('Point', ['x', 'y'])
+p = Point(11, y=22)
+print(p.x + p.y) # 输出: 33
+```
+deque：类似列表的容器(双向队列)，支持在两端快速添加和弹出元素。
+```python
+from collections import deque
+d = deque('ghi') # 创建带有三个元素的deque
+for elem in d: # 遍历deque的元素
+   print(elem.upper())
+```
+ChainMap：类似字典的类，用于创建多个映射的单个视图。
+```python
+from collections import ChainMap
+baseline = {'music': 'bach', 'art': 'rembrandt'}
+adjustments = {'art': 'van gogh', 'opera': 'carmen'}
+combined = ChainMap(adjustments, baseline)
+print(combined['art']) # 输出: 'van gogh'
+```
+Counter：用于计数可哈希对象的字典子类。
+```python
+from collections import Counter
+cnt = Counter()
+for word in ['red', 'blue', 'red', 'green', 'blue', 'blue']:
+   cnt[word] += 1
+print(cnt) # 输出: Counter({'blue': 3, 'red': 2, 'green': 1})
+```
+OrderedDict：记住元素添加顺序的字典子类。
+```python
+from collections import OrderedDict
+od = OrderedDict()
+od['a'] = 1
+od['b'] = 2
+od['c'] = 3
+od['d'] = 4
+for key, value in od.items():
+   print(key, value)
+```
+defaultdict：在查询缺失键时调用工厂函数提供默认值的字典子类。
+```python
+from collections import defaultdict
+s = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
+d = defaultdict(list)
+for k, v in s:
+   d[k].append(v)
+print(sorted(d.items()))
+```
+此外，UserDict、UserList、UserString：分别围绕字典、列表、字符串对象的包装器，便于子类化。
