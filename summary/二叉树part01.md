@@ -66,3 +66,16 @@ def preorderTraversal(self, root):
 | 题目     | Leetcode地址 |
 | ----------- | ----------- |
 | 102.二叉树的层序遍历| [力扣题目链接](https://leetcode.cn/problems/binary-tree-level-order-traversal/description/)      |
+| 107.二叉树的层序遍历II| [力扣题目链接](https://leetcode.cn/problems/binary-tree-level-order-traversal-ii/description/)      |
+| 199.二叉树的右视图| [力扣题目链接](https://leetcode.cn/problems/binary-tree-right-side-view/description/)      |
+| 637.二叉树的层平均值| [力扣题目链接](https://leetcode.cn/problems/average-of-levels-in-binary-tree/description/)      |
+| 429.N叉树的层序遍历| [力扣题目链接](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/description/)      |
+| 515. 在每个树行中找最大值| [力扣题目链接](https://leetcode.cn/problems/find-largest-value-in-each-tree-row/description/)      |
+| 116. 填充每个节点的下一个右侧节点指针| [力扣题目链接](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/description/)      |
+| 117. 填充每个节点的下一个右侧节点指针II| [力扣题目链接](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/description/)      |
+| 104. 二叉树的最大深度| [力扣题目链接](https://leetcode.cn/problems/maximum-depth-of-binary-tree/description/)      |
+| 111. 二叉树的最小深度| [力扣题目链接](https://leetcode.cn/problems/minimum-depth-of-binary-tree/description/)      |
+
+
+
+- 199题每一次需要在开始记录当前队列的长度，所以要单独引用一个变量来记录长度，否则直接取会改变
