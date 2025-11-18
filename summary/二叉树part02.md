@@ -3,7 +3,7 @@
 ## Leetcode题目
 | 题目     | Leetcode地址 |
 | ----------- | ----------- |
-| 226. 翻转二叉树| [力扣题目链接][(https://leetcode.cn/problems/symmetric-tree/description/](https://leetcode.cn/problems/invert-binary-tree/description/))      |
+| 226. 翻转二叉树| [力扣题目链接](https://leetcode.cn/problems/invert-binary-tree/description/)    |
 | 101. 对称二叉树| [力扣题目链接](https://leetcode.cn/problems/symmetric-tree/description/)      |
 | 559. N叉树的最大深度| [力扣题目链接](https://leetcode.cn/problems/maximum-depth-of-n-ary-tree/description/)      |
 | 104. 二叉树的最大深度| [力扣题目链接](https://leetcode.cn/problems/maximum-depth-of-binary-tree/description/)      |
