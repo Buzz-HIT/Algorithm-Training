@@ -12,3 +12,5 @@
 利用完全二叉树和满二叉树的性质
 递归着去找每一个子满二叉树，利用其性质返回相应的节点数。
 ![alt text](image-4.png)
+
+self.result.append('->'.join(map(str, path))) # 注意这里，path算是公共变量，在每个递归栈中共享空间，map可以进行类型转换
