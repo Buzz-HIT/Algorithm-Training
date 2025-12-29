@@ -4,9 +4,9 @@
 | 题目     | 地址 |
 | ----------- | ----------- |
 |101.孤岛的总面积 | [卡码题目链接](https://kamacoder.com/problempage.php?pid=1173)      |
-|102.沉没孤岛| [卡玛题目链接](https://kamacoder.com/problempage.php?pid=1174)      |
-|103.水流问题| [卡玛题目链接](https://kamacoder.com/problempage.php?pid=1175)      |
-|104.建造最大岛屿| [卡玛题目链接](https://kamacoder.com/problempage.php?pid=1176)      |
+|102.沉没孤岛| [卡码题目链接](https://kamacoder.com/problempage.php?pid=1174)      |
+|103.水流问题| [卡码题目链接](https://kamacoder.com/problempage.php?pid=1175)      |
+|104.建造最大岛屿| [卡码题目链接](https://kamacoder.com/problempage.php?pid=1176)      |
 
 ### 103.水流问题
 现有一个 N × M 的矩阵，每个单元格包含一个数值，这个数值代表该位置的相对高度。矩阵的左边界和上边界被认为是第一组边界，而矩阵的右边界和下边界被视为第二组边界。
